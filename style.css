@@ -7,7 +7,7 @@ body{
   h1,
   h2,
   h3,
-  h4,
+  /* h4, */
   h5,
   h6{
       font-family: 'Permanent marker', serif;
@@ -101,7 +101,8 @@ body{
   }
 
   .page-wrapper a:hover {
-    color: #273a73;
+    color: #f26457;
+    transition: .3s;
   }
 
   /* POST SLIDER */
@@ -149,11 +150,16 @@ body{
       background: lightgray;
       border-radius: 5px;
       box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+    
   }
 
   .post-slider .post-wrapper .post .post-info{
       height: 130px;
       padding: 0px 5px ;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; 
+      font-size: .9em;
+      color: #273a73;
+      
   }
 
   .post-slider .post-wrapper .post .slider-image{
